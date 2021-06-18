@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  min-height: 600px;
+  background: url("/img/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.small-container {
+  color: rgba(173, 202, 9, 0.938);
+  font-family: "Montserrat";
+  height: 400px;
+  text-align: center;
+  padding: 200px 0;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.parag {
+  font-size: 23px;
+}
+
+button {
+  word-spacing: 1px;
+  margin: 20px 0;
+  padding: 20px 25px;
+  font-size: 20px;
+  font-family: "Oswald";
+  border-radius: 5px;
+  border: 0;
+  font-weight: 700;
+  cursor: pointer;
+  color: rgba(173, 202, 9, 0.938);
+  background-color: rgba(44, 26, 59, 0.788);
+}
+
+button:hover {
+  color: #eee;
+  background-color: rgba(173, 202, 9, 0.555);
+}
+
+span {
+  padding-left: 8px;
+}
+
+section {
+  height: 350px;
+  background: rgba(27, 1, 1, 0.973);
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgba(173, 202, 9, 0.555);
+  /* border: 5px solid red; */
+  height: 350px;
+  margin: 0 330px;
+}
+
+.cost {
+  height: 345px;
+  padding: 0 145px;
+  background-color: rgb(19, 6, 29);
+  text-align: center;
+  border-radius: 15px;
+}
+
+.cost ul {
+  list-style-type: none;
+  font-family: "Montserrat";
+  font-size: 40px;
+  padding-top: 20px;
+  color: rgb(199, 187, 187);
+  font-weight: 600;
+}
+
+.cost ul li {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.m-container {
+  min-height: 700px;
+  /* border: 5px solid red; */
+  text-align: center;
+  color: orange;
+}
+
+.card-container {
+  height: 600px;
+  /* border: 3px solid white; */
+  margin: 20px 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  height: 600px;
+  background: #eee;
+  text-align: center;
+  /* border: 3px solid white; */
+  margin: 0 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  height: 615px;
+}
+
+.card ul {
+  list-style-type: none;
+  margin: 10px 30px;
+  text-align: justify;
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 17px;
+  color: rgb(19, 6, 29);
+  word-spacing: 1px;
+}
+
+.card ul li {
+  margin-bottom: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+.details {
+  height: 740px;
+}
+
+.needs {
+  height: 250px;
+  background: wheat;
+  text-align: center;
+  padding: 40px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.needs h1 {
+  padding-bottom: 20px;
+}
+
+.flex {
+  /* border: 3px solid wheat; */
+  height: 490px;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  /* border: 3px solid white; */
+  flex-basis: 100%;
+  text-align: center;
+  color: rgba(173, 202, 9, 0.938);
+  font-family: "Montserrat";
+  padding: 50px 90px;
+}
+
+.box h2 {
+  font-size: 35px;
+  margin: 60px 0;
+}
+
+p {
+  font-size: 20px;
+  word-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  align-items: center;
+  font-family: "Oswald";
+}
+
+footer h4 {
+  font-size: 22px;
+}
